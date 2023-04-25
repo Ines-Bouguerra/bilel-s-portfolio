@@ -1,7 +1,5 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -15,14 +13,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    idkids,
+    ineas,
+    medianet,
+    numeryx,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +41,8 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
         title: "Backend Developer",
         icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
     },
 ];
 
@@ -81,7 +68,7 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
+        name: "Redux",
         icon: redux,
     },
     {
@@ -116,52 +103,40 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack ReactJS & NodeJS Development Engineer",
+        company_name: "Idkids",
+        icon: idkids,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "February 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Contribution to the migration of the different payment methods of the IdKids site to React JS, using reusable React components and respecting good development practices",
+            "Maintained the application by fixing bugs reported by users, updating dependencies, and optimizing performance.",
+            "Followed development standards and best practices to ensure code quality and application scalability.",
+            "Collaborated with the development team to resolve technical issues and share knowledge on new technologies and development best practices.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Full Stack JS Developer ReactJS & NodeJS",
+        company_name: "MEDIANET-ATS",
+        icon: medianet,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "January 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Contribution to the design and development of new features of the application",
+            "Monitoring and implementation of development standards and best practices.",
+            "Implementation of technical tests: integration tests, unit tests",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Vue.js Developer",
+        company_name: "INEAS National Health Accreditation Authority",
+        icon: ineas,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "September 2021 - December 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Vue.js.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -172,93 +147,81 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Ines is an outstanding talent who truly stood out for her ability to handle multiple tasks with ease. Her work had a significant impact on our team's productivity level, and I was impressed by her dedication to achieving results. Ines is an excellent communicator and a pleasure to work with, and I highly recommend her for any role she may be pursuing.",
+        name: "Bilel Khadhraoui",
+        designation: "Senior Software Engineer",
+        company: "Numeryx",
+        image: numeryx,
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "idkids",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Migration of the different payment methods of the IdKids site to React JS, using reusable React components and respecting good development practices.",
         tags: [
             {
-                name: "react",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "context",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: idkids,
+        source_code_link: "https://github.com/Ines-Bouguerra",
     },
     {
-        name: "Job IT",
+        name: "MEDIANET-ATS",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Developing and maintaining applicant tracking system company witch organizes events where talents and recruiters can meet using Node.js and React.js.",
         tags: [
             {
-                name: "react",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "nodejs",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "docker",
+                color: "blue-text-gradient",
             },
+            {
+                name: "mysql",
+                color: "blue-text-gradient",
+            }
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: medianet,
+        source_code_link: "https://github.com/Ines-Bouguerra",
     },
     {
-        name: "Trip Guide",
+        name: "INEAS National Health Accreditation Authority",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Centralizing and exchanging data concerning the accreditation and management of visiting experts for the authority National Health Accreditation.",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "vuejs",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "vuex",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vue-router",
+                color: "green-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ineas,
+        source_code_link: "https://github.com/Ines-Bouguerra",
     },
 ];
 
