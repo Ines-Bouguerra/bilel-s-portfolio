@@ -15,6 +15,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import vuejs from "./tech/vuejs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -24,6 +25,10 @@ import idkids from "./company/idkids.png";
 import medianet from "./company/medianet.png";
 import ineas from "./company/ineas.png";
 import numeryx from "./company/numeryx.png";
+
+import idkidsIcon from "./company/idkids.jpg";
+import medianetIcon from "./company/medianet.jpg";
+import ineasIcon from "./company/ineas.jpg";
 
 export {
   logo,
@@ -42,6 +47,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  vuejs,
   redux,
   tailwind,
   typescript,
@@ -49,5 +55,8 @@ export {
   idkids,
   medianet,
   ineas,
+  idkidsIcon,
+  medianetIcon,
+  ineasIcon,
   numeryx,
 };

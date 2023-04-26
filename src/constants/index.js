@@ -7,16 +7,18 @@ import {
     css,
     reactjs,
     redux,
-    tailwind,
+    vuejs,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    threejs,
     idkids,
     ineas,
     medianet,
+    idkidsIcon,
+    ineasIcon,
+    medianetIcon,
     numeryx,
 } from "../assets";
 
@@ -37,7 +39,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
     },
     {
@@ -72,10 +74,6 @@ const technologies = [
         icon: redux,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
         name: "Node JS",
         icon: nodejs,
     },
@@ -84,8 +82,8 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Vue JS",
+        icon: vuejs,
     },
     {
         name: "git",
@@ -103,7 +101,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Full Stack ReactJS & NodeJS Development Engineer",
+        title: "React.js Developer",
         company_name: "Idkids",
         icon: idkids,
         iconBg: "#383E56",
@@ -117,7 +115,7 @@ const experiences = [
         ],
     },
     {
-        title: "Full Stack JS Developer ReactJS & NodeJS",
+        title: "Full Stack Developer (Node.js/React.js)",
         company_name: "MEDIANET-ATS",
         icon: medianet,
         iconBg: "#E6DEDD",
@@ -157,7 +155,7 @@ const testimonials = [
 
 const projects = [
     {
-        name: "idkids",
+        name: "IDKIDS",
         description:
             "Migration of the different payment methods of the IdKids site to React JS, using reusable React components and respecting good development practices.",
         tags: [
@@ -174,8 +172,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: idkids,
-        source_code_link: "https://github.com/Ines-Bouguerra",
+        image: idkidsIcon,
+        icon: idkids,
+        source_code_link: "https://www.idkids.fr/",
     },
     {
         name: "MEDIANET-ATS",
@@ -199,13 +198,14 @@ const projects = [
                 color: "blue-text-gradient",
             }
         ],
-        image: medianet,
-        source_code_link: "https://github.com/Ines-Bouguerra",
+        image: medianetIcon,
+        icon: medianet,
+        source_code_link: "https://app.atslik.com/",
     },
     {
-        name: "INEAS National Health Accreditation Authority",
+        name: "INEAS",
         description:
-            "Centralizing and exchanging data concerning the accreditation and management of visiting experts for the authority National Health Accreditation.",
+            "Developing and maintaining web site of centralizing and exchanging data concerning the accreditation and management of visiting experts.",
         tags: [
             {
                 name: "vuejs",
@@ -220,8 +220,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: ineas,
-        source_code_link: "https://github.com/Ines-Bouguerra",
+        image: ineasIcon
     },
 ];
 
