@@ -29,6 +29,10 @@ import numeryx from "./company/numeryx.png";
 import idkidsIcon from "./company/idkids.jpg";
 import medianetIcon from "./company/medianet.jpg";
 import ineasIcon from "./company/ineas.jpg";
+import dashboardIcon from "./company/dashboard.png";
+import travelIcon from "./company/travel.png";
+import invoiceIcon from "./company/invoice.png";
+import trelloIcon from "./company/trello.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   medianetIcon,
   ineasIcon,
   numeryx,
+  dashboardIcon,
+  travelIcon,
+  invoiceIcon,
+  trelloIcon,
 };

@@ -20,6 +20,10 @@ import {
     ineasIcon,
     medianetIcon,
     numeryx,
+    dashboardIcon,
+    travelIcon,
+    invoiceIcon,
+    trelloIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -221,6 +225,106 @@ const projects = [
             },
         ],
         image: ineasIcon
+    },
+    {
+        name: "INVOICE APP",
+        description:
+            "Build and Deploy a web application that provides a simple and intuitive way to manage and create invoices.",
+        tags: [
+            {
+                name: "vuejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vuex",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vue-router",
+                color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            }
+        ],
+        image: invoiceIcon,
+        icon: invoiceIcon,
+        source_code_link: "https://invoice-vue-application.netlify.app/",
+    },
+    {
+        name: "DASHBOARD",
+        description:
+            "Developing Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "context",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "syncfusion",
+                color: "green-text-gradient",
+            },
+        ],
+        image: dashboardIcon,
+        icon: dashboardIcon,
+        source_code_link: "https://shoppy-dashboard-2022.netlify.app/",
+    },
+    {
+        name: "TRELLO CLONE",
+        description:
+            "Trello clone application provides a user-friendly and customizable interface for organizing tasks and projects.",
+        tags: [
+            {
+                name: "nuxtjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vuex",
+                color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vuetify",
+                color: "green-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: trelloIcon,
+        icon: trelloIcon,
+        source_code_link: "https://my-trello-clone-dev.netlify.app/",
+    },
+    {
+        name: "TRAVEL ADVISOR",
+        description:
+            "Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more.",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: " google-map-api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "material-ui",
+                color: "green-text-gradient",
+            }
+        ],
+        image: travelIcon,
+        icon: travelIcon,
+        source_code_link: "https://travel-advisor-ib.netlify.app/",
     },
 ];
 
