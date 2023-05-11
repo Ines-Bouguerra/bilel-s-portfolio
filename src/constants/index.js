@@ -24,6 +24,7 @@ import {
     travelIcon,
     invoiceIcon,
     trelloIcon,
+    medium,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +35,10 @@ export const navLinks = [
     {
         id: "work",
         title: "Work",
+    },
+    {
+        id: "article",
+        title: "Blog",
     },
     {
         id: "contact",
@@ -249,7 +254,7 @@ const projects = [
             }
         ],
         image: invoiceIcon,
-        icon: invoiceIcon,
+        icon: 'https://cdn0.iconfinder.com/data/icons/shopping-icons-rounded/110/Bill-512.png',
         source_code_link: "https://invoice-vue-application.netlify.app/",
     },
     {
@@ -271,7 +276,7 @@ const projects = [
             },
         ],
         image: dashboardIcon,
-        icon: dashboardIcon,
+        icon: 'https://icon-library.com/images/icon-for-dashboard/icon-for-dashboard-15.jpg',
         source_code_link: "https://shoppy-dashboard-2022.netlify.app/",
     },
     {
@@ -301,7 +306,7 @@ const projects = [
             }
         ],
         image: trelloIcon,
-        icon: trelloIcon,
+        icon: 'https://icon-icons.com/icons2/2429/PNG/512/trello_logo_icon_147221.png',
         source_code_link: "https://my-trello-clone-dev.netlify.app/",
     },
     {
@@ -323,9 +328,139 @@ const projects = [
             }
         ],
         image: travelIcon,
-        icon: travelIcon,
+        icon: 'https://cdn.icon-icons.com/icons2/2592/PNG/512/tripadvisor_logo_icon_154487.png',
         source_code_link: "https://travel-advisor-ib.netlify.app/",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const articles = [
+    {
+        title: "React.js Performance Optimization Techniques and Strategies",
+        description: "React.js Performance Optimization Techniques and Strategies",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fPBjdJie1uMtp_NwFFuTJw.png",
+        icon: medium,
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "performance",
+                color: "green-text-gradient",
+            },
+            {
+                name: "optimization",
+                color: "green-text-gradient",
+            },
+        ],
+        link: "https://medium.com/@ines-bouguerra/react-js-performance-optimization-techniques-and-strategies-1a888de38836",
+    },
+    {
+        title: "TDD : Test-driven development",
+        description: "TDD : Test-driven development",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*wpiIuXyKwqnP3MB0.png",
+        icon: medium,
+        tags: [
+            {
+                name: "tdd",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "test",
+                color: "green-text-gradient",
+            },
+            {
+                name: "driven",
+                color: "green-text-gradient",
+            },
+        ],
+        link: "https://medium.com/@ines-bouguerra/tdd-test-driven-development-17f519b90c31",
+    },
+    {
+        title: "Why the Composition API",
+        description: "Why the Composition API",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*lIRZ9YpzFyhO4v8c.png",
+        icon: medium,
+        tags: [
+            {
+                name: "composition",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "green-text-gradient",
+            },
+        ],
+        link: "https://medium.com/@ines-bouguerra/why-the-composition-api-66f6003ab1e0",
+    },
+    {
+        title: "Nuxt.js for your next web application",
+        description: "Nuxt.js for your next web application",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*HsriGncgl-JOIbE0.png",
+        icon: medium,
+        tags: [
+            {
+                name: "nuxtjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "vuejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "server side rendering",
+                color: "green-text-gradient",
+            }
+        ],
+        link: "https://medium.com/dev-genius/nuxt-js-for-your-next-web-application-c1ca60e52fa",
+    },
+    {
+        title: "Best Practice for writing Vue Js 2",
+        description: "Best Practice for writing Vue Js 2",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*2RxJaaNS9KL-t1mM.png",
+        icon: medium,
+        tags: [
+            {
+                name: "vuejs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "best",
+                color: "green-text-gradient",
+            },
+            {
+                name: "practice",
+                color: "green-text-gradient",
+            },
+        ],
+        link: "https://medium.com/@ines-bouguerra/best-practice-for-writing-vue-js-912dabd4e2d5",
+    },
+    {
+        title: "Swagger for REST API: Django rest framework project",
+        description: "Swagger for REST API: Django rest framework project",
+        image: "https://miro.medium.com/v2/resize:fit:750/format:webp/0*umxclmuJ79XF7ZmZ.png",
+        icon: medium,
+        tags: [
+            {
+                name: "swagger",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "django",
+                color: "green-text-gradient",
+            },
+            {
+                name: "rest",
+                color: "green-text-gradient",
+            },
+            {
+                name: "api",
+                color: "green-text-gradient",
+            },
+        ],
+        link: "https://medium.com/@ines-bouguerra/swagger-for-rest-api-django-rest-framework-project-c8057626381f",
+    },
+];
+
+
+export { services, technologies, experiences, testimonials, projects, articles};

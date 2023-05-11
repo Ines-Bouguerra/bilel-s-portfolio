@@ -33,6 +33,7 @@ import dashboardIcon from "./company/dashboard.png";
 import travelIcon from "./company/travel.png";
 import invoiceIcon from "./company/invoice.png";
 import trelloIcon from "./company/trello.png";
+import medium from "./company/medium.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   travelIcon,
   invoiceIcon,
   trelloIcon,
+  medium,
 };
