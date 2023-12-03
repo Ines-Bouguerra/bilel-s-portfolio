@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software engineer with experience in JavaScript. I specialize in frameworks such as React, Node.js, and Vue.js,
-        and have a proven track record of delivering efficient, scalable, and user-friendly solutions that solve real-world problems.
-        I'm also a quick learner and work closely with clients to understand their needs and create solutions that align with their goals.
+        I am a proficient software engineer with a focus on JavaScript, specializing in frameworks like React, Next.js, Node.js, and Nest.js.
+        Throughout my career, I have demonstrated a consistent ability to deliver effective, scalable, and intuitive solutions that address practical challenges.
+        My approach involves adapting swiftly and collaborating closely with clients to grasp their requirements, ensuring the development of solutions that precisely meet their objectives.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

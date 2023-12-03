@@ -20,20 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nestjsIcon from "./tech/nestjsIcon.png";
+import angularIcon from "./tech/angularIcon.png";
+import expressjsIcon from "./tech/angularIcon.png";
+import nextjsIcon from "./tech/nextjsIcon.png";
+import storybookIcon from "./tech/storybookIcon.png";
 
-import idkids from "./company/idkids.png";
-import medianet from "./company/medianet.png";
-import ineas from "./company/ineas.png";
+import airbus from "./company/airbus.png";
+import airbusIcon from "./company/airbusIcon.png";
+import wevioo from "./company/wevioo.png";
+import weviooIcon from "./company/weviooIcon.png";
+
 import numeryx from "./company/numeryx.png";
 
-import idkidsIcon from "./company/idkids.jpg";
-import medianetIcon from "./company/medianet.jpg";
-import ineasIcon from "./company/ineas.jpg";
-import dashboardIcon from "./company/dashboard.png";
-import travelIcon from "./company/travel.png";
-import invoiceIcon from "./company/invoice.png";
-import trelloIcon from "./company/trello.png";
-import medium from "./company/medium.png";
 
 export {
   logo,
@@ -57,16 +56,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  idkids,
-  medianet,
-  ineas,
-  idkidsIcon,
-  medianetIcon,
-  ineasIcon,
+  nestjsIcon,
+  angularIcon,
+  expressjsIcon,
+  nextjsIcon,
+  storybookIcon,
+  airbus,
+  airbusIcon,
+  wevioo,
+  weviooIcon,
   numeryx,
-  dashboardIcon,
-  travelIcon,
-  invoiceIcon,
-  trelloIcon,
-  medium,
 };
